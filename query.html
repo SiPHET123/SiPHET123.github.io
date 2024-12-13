@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web form</title>
+</head>
+    <h1 style="text-align:center;">เเบบสอบถาม</h1>
+    <hr>
+    <style>
+      p{
+        text-align: center;
+      }
+      form{
+        line-height: 2;
+      }
+    </style>
+    <form >
+      <table align = "center" style = "background-color:rgb(228, 220, 179)">
+             <tr><td>ข้อมูลผู้ตอบเเบบสอบถาม</td></tr>
+             <tr><td>ชื่อ-นามสกุล
+             <input type="text" name="name" id="name">
+             </td></tr>
+             <tr><td>รหัสนักศึกษา
+             <input type="text" name="Student_id" id="Student_id">
+             </td></tr>
+             <tr><td>เพศ
+             <input type="radio" name="gender" id="male">ชาย
+             <input type="radio" name="gender" id="female">หญิง
+             </td></tr>
+             <tr><td>สังกัดคณะ
+             <select name="Faculty affiliation" id="Faculty affiliation">
+                <option value="science">วิทยาศาสตร์</option>
+                <option value="computer science">วิทยาการคอมพิวเตอร์</option>
+                <option value="education">ครุศาสตร์</option>
+                <option value="Business administration and management">บริหารธุรกิจเเละการจัดการ</option>
+                <option value="Humanities">มนุษย์ศาสตร์</option>
+                <option value="industrial technology">เทคโนโลยีอุสาหกรรม</option>
+                <option value="Agriculture">เกษตรศาสตร์</option>
+                <option value="Nursing Science">พยาบาลศาสตร์</option>
+                <option value="Public health">สาธารณสุขศาสตร์</option>
+                <option value="Traditional Thai medicine and alternatives">เเพทย์เเผนไทยเเละทางเลือก</option>
+                <option value="jurisprudence">นิติศาสตร์</option>
+             </select></td></tr>
+
+             <tr><td>เเม่สีที่ชื่นชอบ<br>
+             <input type="checkbox" name="color" id="red">สีเเดง
+             <input type="checkbox" name="color" id="green">สีเขียว
+             <input type="checkbox" name="color" id="blue">สีน้ำเงิน
+             </td></tr>
+
+             <tr><td>ผลไม้ที่ชื่นชอบ<br>
+             <input type="checkbox" name="fruit" id="mango">มะม่วง
+             <input type="checkbox" name="fruit" id="custard_apple">น้อยหน่า
+             <input type="checkbox" name="fruit" id="durian">ทุเรียน
+             <br>
+             <input type="checkbox" name="fruit" id="longan">ลำใย
+             <input type="checkbox" name="fruit" id="guava">ฝรั่ง
+             <input type="checkbox" name="fruit" id="watermelon">เเตงโม</td></tr>
+
+             <tr><td>อาหารที่ชื่นชอบ<br>
+             <input type="checkbox" name="food" id="tom_yum_soup">ต้มยำกุ้ง
+             <input type="checkbox" name="food" id="omelette">ไข่เจียวหมูสับ
+             <input type="checkbox" name="food" id="green_curry_chicken">เเกงข่าไก่
+             <br>
+             <input type="checkbox" name="food" id="green_curry">เเกงเขียวหวานไก่
+             <input type="checkbox" name="food" id="pad_thai">ผัดไทย
+             <input type="checkbox" name="food" id="crispy_noodles">ราดหน้าหมี่กรอบ</td></tr>
+             <td>
+               <p><input type="submit" value="บันทึก"></p>
+            </td>
+      </table>
+    </form>
+
+</body>
+</html>
